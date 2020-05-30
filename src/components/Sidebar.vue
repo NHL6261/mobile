@@ -61,6 +61,7 @@ export default {
       this.extended_page = true;
     },
     goPath:function(path) {
+      this.hideMenu();
       if (this.$route.path === path) {
         this.isShow = false;
         this.isShows = false;
